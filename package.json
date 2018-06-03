@@ -1,0 +1,30 @@
+{
+  "name": "alextorres94",
+  "version": "1.0.0",
+  "description": "Personal Web Page",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alextorres94/alextorres94.github.io.git"
+  },
+  "keywords": [
+    "personal",
+    "web",
+    "page",
+    "alex",
+    "alex",
+    "torres",
+    "developer",
+    "programmer",
+    "dev"
+  ],
+  "author": "Alex Torres",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alextorres94/alextorres94.github.io/issues"
+  },
+  "homepage": "https://alextorres94.github.io/"
+}
