@@ -1,6 +1,6 @@
 (function cursorAnimation() {
-let cursor = document.getElementById('cursor')  
-  setTimeout(function(){ 
+  let cursor = document.getElementById('cursor');
+  setTimeout(function(){
     if (cursor.style.visibility === "visible") {
       cursor.style.visibility = "hidden";
     } else {
@@ -9,3 +9,19 @@ let cursor = document.getElementById('cursor')
     cursorAnimation()
     }, 500);
 })();
+let awesomeText = document.getElementById("awesomeText");
+let emoji = '';
+let text = 'Hey, I\'m Alex Torres ';
+let num = 0;
+var refreshIntervalId = setInterval(function write(){
+  num += 1;
+  awesomeText.innerHTML = text.slice(0,num) + emoji
+  console.log('num', num);
+  console.log('emoji', emoji);
+  if(num === 21) {
+    emoji = '👋🏼';
+  };
+  if(num === 22){
+    clearInterval(refreshIntervalId)
+  }
+},200)
