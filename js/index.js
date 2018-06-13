@@ -16,8 +16,6 @@ let num = 0;
 var refreshIntervalId = setInterval(function write(){
   num += 1;
   awesomeText.innerHTML = text.slice(0,num) + emoji
-  console.log('num', num);
-  console.log('emoji', emoji);
   if(num === 21) {
     emoji = '👋🏼';
   };
