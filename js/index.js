@@ -11,7 +11,7 @@
 })()
 let awesomeText = document.getElementById("awesomeText")
 let emoji = ''
-const text = 'Hey, I\'m Alex Torres '
+const text = 'Hello, I\'m Alex Torres '
 let num = 0
 var refreshIntervalId = setInterval(function write(){
   num += 1

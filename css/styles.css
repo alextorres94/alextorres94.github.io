@@ -2,31 +2,9 @@ html {
 	font-family: 'Roboto', sans-serif;
 }
 
-@media (min-width: 576px) {
-	html {
-		font-size: 14px;
-	}
-}
-
-@media (min-width: 768px) {
-	html {
-		font-size: 16px;
-	}
-}
-
-@media (min-width: 992px) {
-	html {
-		font-size: 18px;
-	}
-}
-
-@media (min-width: 1200px) {
-	html {
-		font-size: 20px;
-	}
-}
-
 .icons-social i {
+	padding: 10px;
+	color: #FAFAFA;
 	font-size: 3em;
 }
 
@@ -37,6 +15,8 @@ main {
 	justify-content: center;
 	padding: 0 30px;
 	text-align: center;
+	background: #303F9F;
+	color: #FAFAFA;
 }
 
 main > .intro {
@@ -49,10 +29,6 @@ main > .tagline {
 	font-size: 1.5rem;
 	margin: 1.5rem 0;
 	font-weight: 100;
-}
-
-.icons-social i {
-	padding: 10px;
 }
 
 .devto {
